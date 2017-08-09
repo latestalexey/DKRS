@@ -25,7 +25,6 @@
 						<value xsi:type="xs:string">ЧДЦ=2; ЧГ=3,0</value>
 					</item>
 				</appearance>
-				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ДебиторкаПрошлыхЛет</dataPath>
@@ -45,13 +44,11 @@
 						<value xsi:type="xs:string">ЧДЦ=2; ЧГ=3,0</value>
 					</item>
 				</appearance>
-				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>АналитикаУчетаПоПартнерам</dataPath>
 				<field>АналитикаУчетаПоПартнерам</field>
 				<appearance/>
-				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ОплатаВсего</dataPath>
@@ -71,7 +68,6 @@
 						<value xsi:type="xs:string">ЧДЦ=2; ЧГ=3,0</value>
 					</item>
 				</appearance>
-				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ОплатаАвансы</dataPath>
@@ -91,7 +87,6 @@
 						<value xsi:type="xs:string">ЧДЦ=2; ЧГ=3,0</value>
 					</item>
 				</appearance>
-				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>КредиторскаяНаНачало</dataPath>
@@ -111,7 +106,6 @@
 						<value xsi:type="xs:string">ЧДЦ=2; ЧГ=3,0</value>
 					</item>
 				</appearance>
-				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Партнер</dataPath>
@@ -134,26 +128,22 @@
 				</orderExpression>
 				<valueType>
 					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
-					<TypeId xmlns="http://v8.1c.ru/8.1/data/core">8f8a65b4-94c4-4794-b3e2-800d18d503ca</TypeId>
 					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
 						<Length>15</Length>
 						<AllowedLength>Variable</AllowedLength>
 					</StringQualifiers>
 				</valueType>
 				<appearance/>
-				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Лимит</dataPath>
 				<field>Лимит</field>
 				<appearance/>
-				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ВидОплаты</dataPath>
 				<field>ВидОплаты</field>
 				<appearance/>
-				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ОплатаКредиторки</dataPath>
@@ -173,7 +163,6 @@
 						<value xsi:type="xs:string">ЧДЦ=2; ЧГ=3,0</value>
 					</item>
 				</appearance>
-				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ДебиторскаяНаНачало</dataPath>
@@ -193,31 +182,26 @@
 						<value xsi:type="xs:string">ЧДЦ=2; ЧГ=3,0</value>
 					</item>
 				</appearance>
-				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Валюта</dataPath>
 				<field>Валюта</field>
 				<appearance/>
-				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ЗаказПоставщику</dataPath>
 				<field>ЗаказПоставщику</field>
 				<appearance/>
-				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ПодисточникФинансирования</dataPath>
 				<field>ПодисточникФинансирования</field>
 				<appearance/>
-				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ИсточникФинансирования</dataPath>
 				<field>ИсточникФинансирования</field>
 				<appearance/>
-				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ГруппаПроектов</dataPath>
@@ -234,7 +218,6 @@
 					<autoOrder xmlns="http://v8.1c.ru/8.1/data-composition-system/common">false</autoOrder>
 				</orderExpression>
 				<appearance/>
-				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ВходитВХолдинг</dataPath>
@@ -256,7 +239,6 @@
 						<value xsi:type="xs:string">БЛ=; БИ='Холдинг, в т.ч.:'</value>
 					</item>
 				</appearance>
-				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ГруппаПроектов1</dataPath>
@@ -283,7 +265,6 @@
 					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
 				</role>
 				<appearance/>
-				<inputParameters/>
 			</field>
 			<dataSource>ИсточникДанных1</dataSource>
 			<query>ВЫБРАТЬ
@@ -393,7 +374,6 @@
 			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 			<useRestriction>true</useRestriction>
 			<expression>&amp;Период.ДатаНачала</expression>
-			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>КонецПериода</name>
@@ -412,7 +392,6 @@
 			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 			<useRestriction>true</useRestriction>
 			<expression>&amp;Период.ДатаОкончания</expression>
-			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>Аванс</name>
@@ -422,13 +401,9 @@
 					<d4p1:content>Аванс</d4p1:content>
 				</d4p1:item>
 			</title>
-			<valueType>
-				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">e8326336-f8d7-4bc3-b661-0de209b36458</TypeId>
-			</valueType>
 			<value xsi:nil="true"/>
 			<useRestriction>true</useRestriction>
 			<expression>Справочники.ВидыОплат.НайтиПоНаименованию("Аванс")</expression>
-			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>Лимиты</name>
@@ -438,12 +413,8 @@
 					<d4p1:content>Лимиты</d4p1:content>
 				</d4p1:item>
 			</title>
-			<valueType>
-				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">85b4387d-64df-4e44-b9e7-52d81d43ccbb</TypeId>
-			</valueType>
 			<useRestriction>false</useRestriction>
 			<valueListAllowed>true</valueListAllowed>
-			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>Период</name>
@@ -462,7 +433,6 @@
 				<d4p1:endDate>0001-01-01T00:00:00</d4p1:endDate>
 			</value>
 			<useRestriction>false</useRestriction>
-			<inputParameters/>
 		</parameter>
 		<settingsVariant>
 			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">Основной</name>
@@ -520,6 +490,7 @@
 	<dataParameters>
 		<dcscor:item xsi:type="SettingsParameterValue">
 			<dcscor:parameter>Лимиты</dcscor:parameter>
+			<dcscor:value xsi:nil="true"/>
 			<userSettingID>45583ebf-7433-4537-83df-897ac893f14b</userSettingID>
 		</dcscor:item>
 		<dcscor:item xsi:type="SettingsParameterValue">
